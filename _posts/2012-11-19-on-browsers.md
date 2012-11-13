@@ -5,35 +5,29 @@ title: On Browsers
 
 # On Browsers
 
-What Safari does better:
+## What Safari does better:
 
-- Font rendering
-- Open page with…
-- Click colour sample to cycle through hex/rgb/hsl
-- Obvious how to uninstall Flash
 - Clear cache with one shortcut
 - Clear history with two clicks
+- Click colour sample to cycle through hex/rgb/hsl
 - Disable images/styles/javascript with two clicks
-- User agent spoofing with two clicks
+- Font rendering
+- Obvious how to uninstall Flash
+- Open page with…
 - Popovers for extensions
+- Smoothness and stability of animation
+- User agent spoofing with two clicks
 
-What Safari does worse:
+## What Chrome does better:
 
-- Tabs
-- Fiddly to add style rules
-- Tiny confusing buttons in web inspector
+- Adding style rules
 - Downloads
-- Crashes
-- Private browsing
-- Updates
-
-What Chrome does better:
-
-- Unified location field
-- Tabs
-- Stability
-- Updates
-- Web inspector docking
-- Web inspector clarity
-- Find in page
+- In-page search
 - Incognito
+- Stability
+- Tabs
+- Unified location field
+- Updates
+- Web inspector
+- Web inspector clarity
+- Web inspector docking
