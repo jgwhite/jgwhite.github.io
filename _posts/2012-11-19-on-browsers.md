@@ -23,6 +23,7 @@ title: On Browsers
 - Downloads
 - In-page search
 - Incognito
+- Integration with Google services
 - Profile syncing between devices
 - Stability
 - Tabs
