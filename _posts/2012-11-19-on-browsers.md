@@ -19,11 +19,12 @@ title: On Browsers
 
 ## What Chrome Does Better
 
+- Automatic updates
 - Downloads
 - In-page search
 - Incognito
+- Profile syncing between devices
 - Stability
 - Tabs
 - Unified location field
-- Automatic updates
 - Web inspector ease of use and clarity
