@@ -10,7 +10,7 @@ title: On Browsers
 - Clear cache with one shortcut
 - Clear history with two clicks
 - Click colour sample to cycle through hex/rgb/hsl
-- Disable images/styles/javascript with two clicks
+- Disabled images with two clicks
 - Extension integration
 - Font rendering
 - Open page with...
@@ -29,3 +29,7 @@ title: On Browsers
 - Tabs
 - Unified location field
 - Web inspector ease of use and clarity
+
+## What They Do Differently, but Equally Well...
+
+- Disable cache, javascript
