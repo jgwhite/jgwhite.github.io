@@ -5,13 +5,13 @@ title: Jamie White
 
 # {{page.title}}
 
-Web developer based in London, UK.
+Señor developer at [With Associates](http://withassociates.com/)
+in [London, UK](http://www.builtinlondon.co/).
 
-Currently working for [With Associates](http://withassociates.com/).
-
-## Projects
-
-* [Microfiche.js](http://withassociates.github.com/microfiche.js/)
+[+44 7899 872 935](tel:+447899872935)  
+[jamie@jgwhite.co.uk](mailto:jamie@jgwhite.co.uk)  
+[github.com/jgwhite](http://github.com/jgwhite)  
+[twitter.com/jgwhite](http://twitter.com/jgwhite)
 
 ## Posts
 
@@ -19,22 +19,43 @@ Currently working for [With Associates](http://withassociates.com/).
 * {{post.date | date_to_long_string}} [{{post.title}}]({{post.url}})
 {% endfor %}
 
+## Projects
+
+* [Microfiche.js](http://withassociates.github.com/microfiche.js/)
+
 ## Technologies
 
-* [Backbone](http://backbonejs.org/)
-* [Ember](http://emberjs.com/)
 * [Git](http://git-scm.com/)
-* [MongoDB](http://www.mongodb.org/)
+* [Ruby](http://www.ruby-lang.org/)
 * [Rails](http://rubyonrails.org/)
+* [Ember](http://emberjs.com/)
+* [Backbone](http://backbonejs.org/)
+* [MongoDB](http://www.mongodb.org/)
+* [Wordpress](http://wordpress.org/)
+* [The Semantic Web](http://www.w3.org/)
 
-## Contact
+## Associates
 
-* [twitter.com/jgwhite](http://twitter.com/jgwhite)
-* [jamie@jgwhite.co.uk](mailto:jamie@jgwhite.co.uk)
+* [Al Monk](http://www.alasdairmonk.com/)
+* [Anna Karlin](http://annakarlin.com/)
+* [Clare Sutcliffe](http://www.claresutcliffe.com/)
+* [Dan DeHavilland](http://dandehavilland.com/)
+* [Deborah Casswell](http://deborahcasswell.com/)
+* [Enrique Pardo](http://enriquepardo.com/)
+* [Franki Goodwin](http://frankigoodwin.com/)
+* [Greyworld](http://greyworld.org/)
+* [Jonny Green](http://jonny-green.com/)
+* [Lawrence Brown](http://lawrencebrown.eu/)
+* [LuckyMe](http://thisisluckyme.com/)
+* [Mark Dunbavan](http://www.markdunbavan.co.uk/)
+* [Oiffy](http://oiffy.com/)
+* [Radio Design](http://radiodesign.co.uk/)
+* [Sam Williams](http://sam-w.com/)
+* [Steer](http://steer.me/)
 
 ## Elsewhere
 
-* [This Is My Jam](http://thisismyjam.com/jgwhite)
-* [SoundCloud](http://soundcloud.com/jgwhite)
-* [Spotify](http://open.spotify.com/user/jgwhite/playlist/22wZOL21fPI2IWqkixKDa4)
+* [Instagram](http://instagram.com/jgwhite)
 * [Flickr](http://www.flickr.com/people/jgwhite/)
+* [SoundCloud](http://soundcloud.com/jgwhite)
+* [This Is My Jam](http://thisismyjam.com/jgwhite)
