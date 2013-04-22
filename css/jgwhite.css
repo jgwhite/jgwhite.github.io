@@ -15,9 +15,6 @@ body {
 }
 
 body {
-  margin: 0 auto;
-  max-width: 37em;
-
   font-family: 'ff-tisa-web-pro-1', 'ff-tisa-web-pro-2', serif;
   font-size: 18px;
   line-height: 1.5;
@@ -27,7 +24,9 @@ body {
 }
 
 #main {
+  margin: 0 auto;
   padding: 1.5em;
+  max-width: 34em;
 }
 
 hr {
@@ -35,12 +34,12 @@ hr {
   border: none;
   height: 1px;
 
-  background-color: hsl(360, 73%, 55%);
-  color: hsl(360, 73%, 55%);
+  background-color: #e03838;
+  color: #e03838;
 }
 
 a {
-  color: hsl(360, 73%, 55%);
+  color: #e03838;
 }
 
 p {
@@ -62,5 +61,5 @@ h1 {
   font-weight: normal;
   line-height: 1;
 
-  color: hsl(360, 73%, 55%);
+  color: #e03838;
 }
