@@ -35,7 +35,7 @@ in [London, UK](http://www.builtinlondon.co/).
 
 ---
 
-## Technologies
+## Tools
 
 * [Git](http://git-scm.com/)
 * [Ruby](http://www.ruby-lang.org/)
