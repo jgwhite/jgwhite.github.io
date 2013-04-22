@@ -7,37 +7,40 @@ body {
 
 body {
   margin: 0 auto;
-  width: 36em;
+  max-width: 32em;
 
-  font-family: 'Lucida Console', Monaco, monospace;
-  font-size: 16px;
+  font-family: 'ff-tisa-web-pro-1', 'ff-tisa-web-pro-2', serif;
+  font-size: 18px;
   line-height: 1.5;
 
-  background: #fafafa;
+  background: white;
   color: #111;
 }
 
 #main {
-  padding: 32px;
+  padding: 1.5em;
+}
+
+hr {
+  margin: 1em 0;
+  border: none;
+  height: 1px;
+
+  background: #ddd;
+  color: #ddd;
 }
 
 p {
-  margin: 0 0 1em 0;
+  margin: 1em 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 1em 0;
+  margin: 1em 0;
 
   font-size: 1em;
   font-weight: bold;
 }
 
 h1 {
-  border-bottom: 1px solid #ddd;
-
   font-size: 1.618em;
-}
-
-h2 {
-  border-bottom: 1px solid #ddd;
 }

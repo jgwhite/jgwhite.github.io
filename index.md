@@ -1,17 +1,25 @@
 ---
-layout: home
+layout: default
 title: Jamie White
 ---
 
-# {{page.title}}
+# Jamie White
+
+<hr noshade>
 
 Señor developer at [With Associates](http://withassociates.com/)
 in [London, UK](http://www.builtinlondon.co/).
 
-[+44 7899 872 935](tel:+447899872935)  
-[jamie@jgwhite.co.uk](mailto:jamie@jgwhite.co.uk)  
-[github.com/jgwhite](http://github.com/jgwhite)  
-[twitter.com/jgwhite](http://twitter.com/jgwhite)
+---
+
+## Contact
+
+* [+44 7899 872 935](tel:+447899872935)
+* [jamie@jgwhite.co.uk](mailto:jamie@jgwhite.co.uk)
+* [github.com/jgwhite](http://github.com/jgwhite)
+* [twitter.com/jgwhite](http://twitter.com/jgwhite)
+
+---
 
 ## Posts
 
@@ -19,9 +27,13 @@ in [London, UK](http://www.builtinlondon.co/).
 * {{post.date | date_to_long_string}} [{{post.title}}]({{post.url}})
 {% endfor %}
 
+---
+
 ## Projects
 
 * [Microfiche.js](http://withassociates.github.com/microfiche.js/)
+
+---
 
 ## Technologies
 
@@ -33,6 +45,8 @@ in [London, UK](http://www.builtinlondon.co/).
 * [MongoDB](http://www.mongodb.org/)
 * [Wordpress](http://wordpress.org/)
 * [The Semantic Web](http://www.w3.org/)
+
+---
 
 ## Associates
 
@@ -52,6 +66,8 @@ in [London, UK](http://www.builtinlondon.co/).
 * [Radio Design](http://radiodesign.co.uk/)
 * [Sam Williams](http://sam-w.com/)
 * [Steer](http://steer.me/)
+
+---
 
 ## Elsewhere
 
