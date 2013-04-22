@@ -48,7 +48,7 @@ in [London, UK](http://www.builtinlondon.co/).
 
 ---
 
-## Associates
+## Amigos
 
 * [Al Monk](http://www.alasdairmonk.com/)
 * [Anna Karlin](http://annakarlin.com/)
