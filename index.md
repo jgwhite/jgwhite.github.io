@@ -3,12 +3,12 @@ layout: default
 title: Jamie White
 ---
 
-# Jamie White
+# JAMIE WHITE
 
 <hr noshade>
 
 Señor developer at [With Associates](http://withassociates.com/)
-in [London, UK](http://www.builtinlondon.co/).
+in [London, UK](http://www.builtinlondon.co/)
 
 ---
 
