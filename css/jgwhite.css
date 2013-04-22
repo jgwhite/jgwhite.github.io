@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'mr-eaves';
-  src: url('http://jgwhite-assets.s3.amazonaws.com/fonts/mr-eaves-sans-r.eot');
-  src: url('http://jgwhite-assets.s3.amazonaws.com/fonts/mr-eaves-sans-r.eot?#iefix') format('embedded-opentype'),
-       url('http://jgwhite-assets.s3.amazonaws.com/fonts/mr-eaves-sans-r.woff') format('woff');
+  src: url('http://d1t3oj7m1i6x3c.cloudfront.net/fonts/mr-eaves-sans-r.eot');
+  src: url('http://d1t3oj7m1i6x3c.cloudfront.net/fonts/mr-eaves-sans-r.eot?#iefix') format('embedded-opentype'),
+       url('http://d1t3oj7m1i6x3c.cloudfront.net/fonts/mr-eaves-sans-r.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
