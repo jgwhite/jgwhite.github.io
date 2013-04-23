@@ -32,6 +32,11 @@ in [London, UK](http://www.builtinlondon.co/)
 ## Projects
 
 * [Microfiche.js](http://withassociates.github.com/microfiche.js/)
+* [Oiffy](http://oiffy.com/)
+* [Enrique Pardo](http://enriquepardo.com/)
+* [LuckyMe](http://thisisluckyme.com/)
+* [Robert Taussig](http://roberttaussig.co.uk/)
+* [Anna Karlin](http://annakarlin.com/)
 
 ---
 
