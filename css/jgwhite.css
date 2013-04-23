@@ -72,6 +72,10 @@ h1 {
   color: #e03838;
 }
 
+aside {
+  margin: 2em 0;
+}
+
 @media screen and (max-width: 576px) {
   h1 { font-size: 4.25em }
 }
