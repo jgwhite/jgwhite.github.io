@@ -16,7 +16,7 @@ body {
 
 body {
   font-family: 'ff-tisa-web-pro-1', 'ff-tisa-web-pro-2', serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
 
   background: white;
@@ -25,7 +25,7 @@ body {
 
 #main {
   margin: 0 auto;
-  padding: 1.5em;
+  padding: 1em;
   max-width: 34em;
 }
 
@@ -39,6 +39,7 @@ hr {
 }
 
 a {
+  white-space: nowrap;
   color: #e03838;
 }
 
@@ -62,4 +63,11 @@ h1 {
   line-height: 1;
 
   color: #e03838;
+}
+
+@media screen and (max-width: 576px) {
+  h1 { font-size: 4.25em }
+}
+@media screen and (max-width: 320px) {
+  h1 { font-size: 3.5em }
 }
