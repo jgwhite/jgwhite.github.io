@@ -34,8 +34,8 @@ hr {
   border: none;
   height: 1px;
 
-  background-color: #e03838;
-  color: #e03838;
+  background-color: #eee;
+  color: #eee;
 }
 
 a {
@@ -73,7 +73,7 @@ h1 {
 }
 
 aside {
-  margin: 2em 0;
+  margin: 4em 0;
 }
 
 @media screen and (max-width: 576px) {
