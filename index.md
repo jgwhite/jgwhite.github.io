@@ -57,6 +57,7 @@ in [London, UK](http://www.builtinlondon.co/)
 
 * [Al Monk](http://www.alasdairmonk.com/)
 * [Anna Karlin](http://annakarlin.com/)
+* [Brendan Gatens](http://brendangatens.com/)
 * [Clare Sutcliffe](http://www.claresutcliffe.com/)
 * [Dan DeHavilland](http://dandehavilland.com/)
 * [Deborah Casswell](http://deborahcasswell.com/)
