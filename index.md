@@ -32,6 +32,7 @@ in [London, UK](http://www.builtinlondon.co/)
 ## Projects
 
 * [Microfiche.js](http://withassociates.github.com/microfiche.js/)
+* [Code Club Assembly](https://github.com/jgwhite/codeclub-assembly)
 * [Oiffy](http://oiffy.com/)
 * [Enrique Pardo](http://enriquepardo.com/)
 * [LuckyMe](http://thisisluckyme.com/)
