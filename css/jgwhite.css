@@ -76,8 +76,31 @@ h1 {
   color: #e03838;
 }
 
+code {
+  display: inline-block;
+  margin: 0 0.333em 0 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 0 0.333em;
+
+  font-family: monospace;
+  font-size: 0.9em;
+
+  background: #eee;
+}
+
 aside {
   margin: 6em 0 2em;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0 1.618em;
+  border-left: 3px solid #eee;
+
+  font-style: italic;
+
+  color: #888;
 }
 
 @media screen and (max-width: 576px) {
