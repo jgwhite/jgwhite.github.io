@@ -189,7 +189,7 @@ App.RecordStore = Ember.Object.extend({
   },
 
   _hydrateObject: function(id, properties) {
-    var object = self._objectFor(id);
+    var object = this._objectFor(id);
     object.setProperties(properties);
     object.set('isLoaded', true);
     this.get('hydratedObjects').addObject(object);
@@ -198,7 +198,7 @@ App.RecordStore = Ember.Object.extend({
 });
 ```
 
-Let’s adjust `App.Record.find` implementation accordingly:
+Let’s adjust our `App.Record.find` implementation accordingly:
 
 ```javascript
 // It’s up to us when we instantiate our store
