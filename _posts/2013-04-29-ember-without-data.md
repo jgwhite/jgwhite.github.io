@@ -198,7 +198,7 @@ App.RecordStore = Ember.Object.extend({
 });
 ```
 
-Let’s adjust of `App.Record.find` implementation accordingly:
+Let’s adjust `App.Record.find` implementation accordingly:
 
 ```javascript
 // It’s up to us when we instantiate our store
