@@ -114,16 +114,112 @@ $.getJSON('/api/records.json').then(function(records) {
 });
 ```
 
-Note that we don’t replace the `DATA` array. For all our bindings to
-work correctly, objects must remain consistent throughout the lifecycle
-of the app. The implications of this statement may not be totally clear
-so let’s look at an example.
+This works nicely for our `records` route. When `App.Record.DATA` changes,
+bindings ensure that the rendered content updates accordingly.
+It does not work out so well for our singular `record`. Let’s have a look
+what happens when we arrive directly at that route:
 
-* Hydrating models
-* Identity maps
+![Singular record problem](http://www.websequencediagrams.com/files/render?link=wtH0S-dEI_17kvLdsk-O)
+
+We see that when the app transitions into the `/records/1` route, the
+record with id ‘1’ is nowhere to be found. At some later stage, our
+ajax request will receive a response and the data will arrive. In
+fact, we could get lucky and the request could complete before we
+get to our route. More likely than not though, it’ll arrive at the
+wrong time.
+
+It’s time to borrow another concept from Ember-Data: object materialization.
+Also known object hydration, this is the process of returning a stand-in
+value object from the data store that will, at some later stage, be
+‘hydrated’ with its real data. At which point, Ember’s bindings will
+ensure all rendered content updates accordingly.
+
+This pattern is not unique to Ember-Data. A [quick][3] [Google][4] will
+show many implementations across different languages and libraries.
+Nonetheless, it’s extremely powerful. Let’s have a look about how our
+app might flow with this in place.
+
+![Singular record with materialization](http://www.websequencediagrams.com/files/render?link=aEb-LRIiyZehPQmVQD9E)
+
+Note that a new collaborator has appeared, labelled `?`. Arguably, we
+could hide all this behaviour in `App.Record`, but let’s not over-burden
+that class. Instead, let’s borrow yet another concept, the Store.
+
+Ember’s docs describe `DS.Store` as a [bookkeeping object][5]. For our
+purposes, it’s main jobs are:
+
+* Creating and keeping-track of dehydrated record objects
+* Keeping track of all hydrated record objects
+
+Let’s call our implementation `App.RecordStore`:
+
+```javascript
+App.RecordStore = Ember.Object.extend({
+  idMap: {},
+  hydratedObjects: [],
+
+  init: function() {
+    this._super();
+    this._fetch();
+  },
+
+  find: function(id) {
+    return this._objectFor(id);
+  },
+
+  all: function() {
+    return this.get('hydratedObjects');
+  },
+
+  _objectFor: function(id) {
+    var idMap = this.get('idMap');
+
+    return idMap[id] = idMap[id] ||
+                       App.Record.create({ id: id });
+  },
+
+  _fetch: function() {
+    var self = this;
+
+    $.getJSON('/api/records.json').then(function(data) {
+      data.records.forEach(function(record) {
+        self._hydrateObject(record.id, record);
+      });
+    });
+  },
+
+  _hydrateObject: function(id, properties) {
+    var object = self._objectFor(id);
+    object.setProperties(properties);
+    object.set('isLoaded', true);
+    this.get('hydratedObjects').addObject(object);
+  }
+
+});
+```
+
+Let’s adjust of `App.Record.find` implementation accordingly:
+
+```javascript
+// It’s up to us when we instantiate our store
+// and where we keep it.
+App.Record.store = App.RecordStore.create();
+
+App.Record.find = function(id) {
+  if (Ember.isNone(id)) {
+    return App.Record.store.all();
+  } else {
+    return App.Record.store.find(id);
+  }
+}
+```
+
 * Conclusion:  
   learning from frameworks even if you don’t end up using them
 
 [0]: https://github.com/jgwhite/jgwhite.github.com/issues
 [1]: http://discuss.emberjs.com/t/ember-data-endless-frustration/893
 [2]: http://emberjs.com/blog/2013/03/22/stabilizing-ember-data.html
+[3]: https://www.google.co.uk/search?q=object+materialization
+[4]: https://www.google.co.uk/search?q=object+hydration
+[5]: https://github.com/emberjs/data/blob/master/ARCHITECTURE.md#dsstore
