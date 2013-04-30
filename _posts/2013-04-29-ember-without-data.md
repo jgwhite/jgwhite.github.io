@@ -243,7 +243,7 @@ re-appropriated and put to work in our apps.
 
 This is why making the time to play with ambitious libraries like
 these is so important. You may not end up actually using the
-framwork, but you’ll almost certainly come away with new ideas
+them, but you’ll almost certainly come away with new ideas
 about how to structure and design your code.
 
 ---
