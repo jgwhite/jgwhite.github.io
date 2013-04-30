@@ -5,12 +5,20 @@ title: 'Ember Without Data'
 
 **This post is a work-in-progress, [comments are welcome][0].**
 
+---
+
+## Disclaimer
+
 This post assumes an entry-level familiarity with Ember and its
-conventions. If you’ve yet to use Ember, there are a [few][1]
-[other][2] [articles][3] worth reading first. If you’re already
-familiar with, Ember and Ember-Data and the conversation
-surrounding both, then this will probably be old news.
+conventions. If you’ve yet to use Ember there are a [few][1]
+[other][2] [articles][3] worth reading first.
+
+If you’re already familiar with Ember, Ember-Data and the conversation
+surrounding both, then all this will probably be old news.
+
 Otherwise, read on…
+
+---
 
 Ember has crystalised into v1 maturity. Ember-Data, however, is not
 yet production-ready and has become a [point of contention][4] within
@@ -30,6 +38,8 @@ framework like Ember, when we say *‘works best’* we really mean
 
 With this in mind, let’s work out how we can get Ember to do all this
 work for us without depending on Ember-Data.
+
+---
 
 ## Don’t Fear The Router
 
@@ -104,6 +114,8 @@ App.Record.find = function(id) {
 With this in place, our app is now wired up to display all
 records in `App.Record.DATA`, and fetch a particular record by `id`.
 
+---
+
 ## The Real World
 
 A static set of records is only going to be useful for a while.
@@ -158,7 +170,7 @@ purposes, it’s main jobs are:
 * Creating and keeping-track of dehydrated record objects
 * Keeping track of all hydrated record objects
 
-Let’s call our implementation `App.RecordStore`:
+Let’s call our implementation `RecordStore`:
 
 ```javascript
 App.RecordStore = Ember.Object.extend({
@@ -225,9 +237,9 @@ App.Record.find = function(id) {
   learning from frameworks even if you don’t end up using them
 
 [0]: https://github.com/jgwhite/jgwhite.github.com/issues
-[1]: TODO
-[2]: TODO
-[3]: TODO
+[1]: #TODO
+[2]: #TODO
+[3]: #TODO
 [4]: http://discuss.emberjs.com/t/ember-data-endless-frustration/893
 [5]: http://emberjs.com/blog/2013/03/22/stabilizing-ember-data.html
 [6]: https://www.google.co.uk/search?q=object+materialization
