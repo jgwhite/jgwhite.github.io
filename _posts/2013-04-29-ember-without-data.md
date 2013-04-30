@@ -11,7 +11,7 @@ title: 'Ember Without Data'
 
 This post assumes an entry-level familiarity with Ember and its
 conventions. If you’ve yet to use Ember there are a [few][1]
-[other][2] [articles][3] worth reading first.
+[other][2] [resources][3] worth checking out first.
 
 If you’re already familiar with Ember, Ember-Data and the conversation
 surrounding both, then all this will probably be old news.
@@ -36,7 +36,7 @@ Let’s qualify that statement a little though — in reference to a
 framework like Ember, when we say *‘works best’* we really mean
 *‘does as much work for us as possible’*.
 
-With this in mind, let’s work out how we can get Ember to do all this
+With this in mind, let’s work out how we can get Ember to do this
 work for us without depending on Ember-Data.
 
 ---
@@ -140,18 +140,18 @@ what happens when we arrive directly at that route:
 
 ![Singular record problem](http://www.websequencediagrams.com/files/render?link=wtH0S-dEI_17kvLdsk-O)
 
-We see that when the app transitions into the `/records/1` route, the
-record with id ‘1’ is nowhere to be found. At some later stage, our
-ajax request will receive a response and the data will arrive. In
-fact, we could get lucky and the request could complete before we
-get to our route. More likely than not though, it’ll arrive at the
-wrong time.
+We see that when the app transitions into the `/records/1` route before
+the data has loaded, record with id ‘1’ is nowhere to be found.
+At some later stage, our ajax request will receive a response and the
+data will arrive. In fact, we could get lucky and the request could
+complete before we get to our route. More likely than not though,
+it’ll arrive at the wrong time.
 
 It’s time to borrow another concept from Ember-Data: object materialization.
 Also known object hydration, this is the process of returning a stand-in
 value object from the data store that will, at some later stage, be
 ‘hydrated’ with its real data. At which point, Ember’s bindings will
-ensure all rendered content updates accordingly.
+ensure the page updates accordingly.
 
 This pattern is not unique to Ember-Data. A [quick][6] [Google][7] will
 show many implementations across different languages and libraries.
@@ -233,15 +233,35 @@ App.Record.find = function(id) {
 }
 ```
 
-* Conclusion:  
-  learning from frameworks even if you don’t end up using them
+---
+
+## In Conclusion
+
+Ember-Data may not be the best fit for every application, but its
+interface and design are full of strong patterns which can be
+re-appropriated and put to work in our apps.
+
+This is why making the time to play with ambitious libraries like
+these is so important. You may not end up actually using the
+framwork, but you’ll almost certainly come away with new ideas
+about how to structure and design your code.
+
+---
+
+Thanks to [Tom Marhsall][9] for valuable feedback.
+
+Also thanks to [Web Sequence Diagrams][10] for their awesome tool
+and [Sandi Metz][11] for recommending it and being generally awesome too.
 
 [0]: https://github.com/jgwhite/jgwhite.github.com/issues
-[1]: #TODO
-[2]: #TODO
-[3]: #TODO
+[1]: http://emberjs.com/guides
+[2]: http://ember101.com/
+[3]: https://peepcode.com/products/emberjs
 [4]: http://discuss.emberjs.com/t/ember-data-endless-frustration/893
 [5]: http://emberjs.com/blog/2013/03/22/stabilizing-ember-data.html
 [6]: https://www.google.co.uk/search?q=object+materialization
 [7]: https://www.google.co.uk/search?q=object+hydration
 [8]: https://github.com/emberjs/data/blob/master/ARCHITECTURE.md#dsstore
+[9]: http://thomasmarshall.com/
+[10]: http://www.websequencediagrams.com/
+[11]: http://sandimetz.com/
