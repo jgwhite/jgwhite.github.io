@@ -5,14 +5,21 @@ title: 'Ember Without Data'
 
 **This post is a work-in-progress, [comments are welcome][0].**
 
+This post assumes an entry-level familiarity with Ember and its
+conventions. If you’ve yet to use Ember, there are a [few][1]
+[other][2] [articles][3] worth reading first. If you’re already
+familiar with, Ember and Ember-Data and the conversation
+surrounding both, then this will probably be old news.
+Otherwise, read on…
+
 Ember has crystalised into v1 maturity. Ember-Data, however, is not
-yet production-ready and has become a [point of contention][1] within
+yet production-ready and has become a [point of contention][4] within
 the community. When it all works, it’s like magic. When it doesn’t,
 it’s hard to know where to start debugging.
 
 Many of the complaints and confusion so far have stemmed from a
 misconception that Ember-Data is part of Ember core and therefore
-Ember can’t be used without it. The team have been [working hard][2] to
+Ember can’t be used without it. The team have been [working hard][5] to
 dispel this perception and demonstrate Ember’s power without Data.
 
 Most apps will need a data-layer at some point though, and it’s
@@ -134,7 +141,7 @@ value object from the data store that will, at some later stage, be
 ‘hydrated’ with its real data. At which point, Ember’s bindings will
 ensure all rendered content updates accordingly.
 
-This pattern is not unique to Ember-Data. A [quick][3] [Google][4] will
+This pattern is not unique to Ember-Data. A [quick][6] [Google][7] will
 show many implementations across different languages and libraries.
 Nonetheless, it’s extremely powerful. Let’s have a look about how our
 app might flow with this in place.
@@ -145,7 +152,7 @@ Note that a new collaborator has appeared, labelled `?`. Arguably, we
 could hide all this behaviour in `App.Record`, but let’s not over-burden
 that class. Instead, let’s borrow yet another concept, the Store.
 
-Ember’s docs describe `DS.Store` as a [bookkeeping object][5]. For our
+Ember’s docs describe `DS.Store` as a [bookkeeping object][8]. For our
 purposes, it’s main jobs are:
 
 * Creating and keeping-track of dehydrated record objects
@@ -218,8 +225,11 @@ App.Record.find = function(id) {
   learning from frameworks even if you don’t end up using them
 
 [0]: https://github.com/jgwhite/jgwhite.github.com/issues
-[1]: http://discuss.emberjs.com/t/ember-data-endless-frustration/893
-[2]: http://emberjs.com/blog/2013/03/22/stabilizing-ember-data.html
-[3]: https://www.google.co.uk/search?q=object+materialization
-[4]: https://www.google.co.uk/search?q=object+hydration
-[5]: https://github.com/emberjs/data/blob/master/ARCHITECTURE.md#dsstore
+[1]: TODO
+[2]: TODO
+[3]: TODO
+[4]: http://discuss.emberjs.com/t/ember-data-endless-frustration/893
+[5]: http://emberjs.com/blog/2013/03/22/stabilizing-ember-data.html
+[6]: https://www.google.co.uk/search?q=object+materialization
+[7]: https://www.google.co.uk/search?q=object+hydration
+[8]: https://github.com/emberjs/data/blob/master/ARCHITECTURE.md#dsstore
