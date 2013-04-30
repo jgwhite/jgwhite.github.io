@@ -1,3 +1,5 @@
+@import 'pygments.css';
+
 @font-face {
   font-family: 'mr-eaves';
   src: url('http://assets.jgwhite.co.uk/fonts/mr-eaves-sans-r.eot');
@@ -87,6 +89,11 @@ code {
   font-size: 0.9em;
 
   background: #eee;
+}
+
+pre code {
+  display: block;
+  padding: 0.333em 0.666em;
 }
 
 aside {
