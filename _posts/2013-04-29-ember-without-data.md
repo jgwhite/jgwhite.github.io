@@ -233,11 +233,6 @@ App.Record.find = function(id) {
 }
 ```
 
-I’ve created a little app to demonstrate everything I’ve mentioned here
-using a Google spreadsheet as the source dataset.
-
-[Ember Without Data (A Demo App)](http://jgwhite.co.uk/ember-without-data)
-
 ---
 
 ## In Conclusion
@@ -250,6 +245,11 @@ This is why making the time to play with ambitious libraries like
 these is so important. You may not end up actually using the
 them, but you’ll almost certainly come away with new ideas
 about how to structure and design your code.
+
+I’ve created a little app to demonstrate everything I’ve mentioned here
+using a Google spreadsheet as the source dataset:
+
+[Ember Without Data (A Demo App)](http://jgwhite.co.uk/ember-without-data)
 
 ---
 
