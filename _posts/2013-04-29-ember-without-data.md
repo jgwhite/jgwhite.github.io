@@ -233,6 +233,11 @@ App.Record.find = function(id) {
 }
 ```
 
+I’ve created a little app to demonstrate everything I’ve mentioned here
+using a Google spreadsheet as the source dataset.
+
+[Ember Without Data (A Demo App)](http://jgwhite.co.uk/ember-without-data)
+
 ---
 
 ## In Conclusion
