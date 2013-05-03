@@ -73,6 +73,7 @@ in [London, UK](http://www.builtinlondon.co/)
 * [Radio Design](http://radiodesign.co.uk/)
 * [Sam Williams](http://sam-w.com/)
 * [Steer](http://steer.me/)
+* [Thomas Marshall](http://thomasmarshall.com/)
 
 ---
 
