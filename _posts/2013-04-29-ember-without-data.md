@@ -148,7 +148,7 @@ complete before we get to our route. More likely than not though,
 it’ll arrive at the wrong time.
 
 It’s time to borrow another concept from Ember-Data: object materialization.
-Also known object hydration, this is the process of returning a stand-in
+Also known as object hydration, this is the process of returning a stand-in
 value object from the data store that will, at some later stage, be
 ‘hydrated’ with its real data. At which point, Ember’s bindings will
 ensure the page updates accordingly.

@@ -94,6 +94,7 @@ code {
 pre code {
   display: block;
   padding: 0.333em 0.666em;
+  overflow: auto;
 }
 
 aside {
