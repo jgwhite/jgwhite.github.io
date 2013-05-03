@@ -93,6 +93,7 @@ code {
 
 pre code {
   display: block;
+  margin: 1em 0;
   padding: 0.333em 0.666em;
   overflow: auto;
 }
