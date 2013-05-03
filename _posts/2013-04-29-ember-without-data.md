@@ -243,8 +243,8 @@ App.initializer({
 });
 ```
 
-These act very much like Rails’ initializers, and ensure that these
-pieces of setup code get executed at the most appropriate moment during
+These act very much like Rails’ initializers, and ensure that pieces of
+setup code get executed at the most appropriate moment during
 Ember’s boot process.
 
 ---
