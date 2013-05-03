@@ -220,10 +220,6 @@ App.RecordStore = Ember.Object.extend({
 Let’s adjust our `App.Record.find` implementation accordingly:
 
 ```javascript
-// It’s up to us when we instantiate our store
-// and where we keep it.
-App.Record.store = App.RecordStore.create();
-
 App.Record.find = function(id) {
   if (Ember.isNone(id)) {
     return App.Record.store.all();
@@ -232,6 +228,24 @@ App.Record.find = function(id) {
   }
 }
 ```
+
+## Initializers
+
+[James Croft][james-croft] pointed out that [Ember’s initializers][initializers]
+are the ideal way to instantiate our `RecordStore` singleton.
+
+```javascript
+App.initializer({
+  name: 'store',
+  initialize: function() {
+    App.Record.store = App.RecordStore.create();
+  }
+});
+```
+
+These act very much like Rails’ initializers, and ensure that these
+pieces of setup code get executed at the most appropriate moment during
+Ember’s boot process.
 
 ---
 
@@ -270,3 +284,5 @@ and [Sandi Metz][11] for recommending it and being generally awesome too.
 [9]: http://thomasmarshall.com/
 [10]: http://www.websequencediagrams.com/
 [11]: http://sandimetz.com/
+[james-croft]: https://twitter.com/james_croft
+[initializers]: http://nerdyworm.com/blog/2013/04/03/ember-initializers/
