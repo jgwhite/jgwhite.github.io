@@ -3,10 +3,6 @@ layout: post
 title: 'Ember Without Data'
 ---
 
-**This post is a work-in-progress, [comments are welcome][0].**
-
----
-
 ## Disclaimer
 
 This post assumes an entry-level familiarity with Ember and its
@@ -267,10 +263,10 @@ using a Google spreadsheet as the source dataset:
 
 ---
 
-Thanks to [Tom Marhsall][9] for valuable feedback.
+Thanks to [Tom Marhsall][tom-marshall] and [James Croft][james-croft] for valuable feedback.
 
-Also thanks to [Web Sequence Diagrams][10] for their awesome tool
-and [Sandi Metz][11] for recommending it and being generally awesome too.
+Also thanks to [Web Sequence Diagrams][wsd] for their awesome tool
+and [Sandi Metz][sandi-metz] for recommending it and being generally awesome too.
 
 [0]: https://github.com/jgwhite/jgwhite.github.com/issues
 [1]: http://emberjs.com/guides
@@ -281,8 +277,8 @@ and [Sandi Metz][11] for recommending it and being generally awesome too.
 [6]: https://www.google.co.uk/search?q=object+materialization
 [7]: https://www.google.co.uk/search?q=object+hydration
 [8]: https://github.com/emberjs/data/blob/master/ARCHITECTURE.md#dsstore
-[9]: http://thomasmarshall.com/
-[10]: http://www.websequencediagrams.com/
-[11]: http://sandimetz.com/
 [james-croft]: https://twitter.com/james_croft
 [initializers]: http://nerdyworm.com/blog/2013/04/03/ember-initializers/
+[tom-marshall]: http://thomasmarshall.com/
+[wsd]: http://www.websequencediagrams.com/
+[sandi-metz]: http://sandimetz.com/
