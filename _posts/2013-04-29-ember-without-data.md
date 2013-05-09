@@ -21,7 +21,7 @@ yet production-ready and has become a [point of contention][4] within
 the community. When it all works, it’s like magic. When it doesn’t,
 it’s hard to know where to start debugging.
 
-Many of the complaints and confusion so far have stemmed from a
+Much of the complaint and confusion so far have stemmed from a
 misconception that Ember-Data is part of Ember core and therefore
 Ember can’t be used without it. The team have been [working hard][5] to
 dispel this perception and demonstrate Ember’s power without Data.
