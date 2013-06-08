@@ -221,8 +221,8 @@ to 'Home' we’ll see the console stops logging 'tick'.
 
 I hope this little tale of Ember development proves useful to someone
 out there. If you’ve read through all this and still have a few minutes
-to spare, I recommend this inspirational video:
-http://youtu.be/5kgUL_FfUZY?t=1h1m13s
+to spare, I recommend [this inspirational video][mamba-time].
 
 [repo]: https://github.com/jgwhite/ember-time
 [twitter]: http://twitter.com/jgwhite
+[mamba-time]: http://youtu.be/5kgUL_FfUZY?t=1h1m13s
