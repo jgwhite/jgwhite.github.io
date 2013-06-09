@@ -38,11 +38,19 @@ to our application template:
 If we reload the page we get an error telling us that `fromNow` is not
 defined anywhere. So let’s define it.
 
-This timestamp is going to have continued behaviour for as long as it’s
-displayed, so let’s give it a proper view class of its own. We probably
-want it to use the `time` tag and render the result of running
-Moment’s `fromNow` method on whatever it’s value is.
+This feature involves continued behaviour, so we probably don’t want a
+one-shot helper. Instead, let’s have our helper delegate to a taylored
+view class.
 
+```javascript
+Ember.Handlebars.helper('fromNow', App.FromNowView);
+```
+
+Now to define that view class. We probably want it to use the `time`
+tag and render the result of running Moment’s `fromNow` method on
+whatever its value is.
+
+{% raw %}
 ```javascript
 App.FromNowView = Ember.View.extend({
   tagName: 'time',
@@ -54,18 +62,12 @@ App.FromNowView = Ember.View.extend({
   }.property('value')
 });
 ```
+{% endraw %}
 
 Note that we use `view.output` rather than simply `output`. This is
 because Ember’s views try their best to get out of the way of the
 surrounding context. If we want to access a property
 of the view in it’s template, we need to be specific.
-
-Now we’ve got our view class, Ember lets us register a shortcut
-as follows:
-
-```javascript
-Ember.Handlebars.helper('fromNow', App.FromNowView);
-```
 
 If we refresh the page now, we’ll actually see the reasonable output
 of ‘Created a few seconds ago’. This is because our view’s value is
