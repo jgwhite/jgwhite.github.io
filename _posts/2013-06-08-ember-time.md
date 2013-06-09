@@ -68,6 +68,8 @@ Note that we use `view.output` rather than simply `output`. This is
 because Ember’s views try their best to get out of the way of the
 surrounding context. If we want to access a property
 of the view in it’s template, we need to be specific.
+Also note that the view class will need to be defined above before
+the helper, as it references it directly.
 
 If we refresh the page now, we’ll actually see the reasonable output
 of ‘Created a few seconds ago’. This is because our view’s value is
