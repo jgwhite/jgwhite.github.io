@@ -6,7 +6,7 @@ title: 'Ember Time'
 *What follows is a re-publication of a [README][repo].*
 
 The README in question turned out a little better-written and more
-instructive than I had expected so I figured it deserved to published
+instructive than I had expected so I figured it deserved to be published
 as a proper little piece.
 
 If you think this is shameless recycling of material, feel free to troll
