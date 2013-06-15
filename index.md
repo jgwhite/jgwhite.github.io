@@ -39,6 +39,7 @@ in [London, UK](http://www.builtinlondon.co/)
 * [LuckyMe](http://thisisluckyme.com/)
 * [Robert Taussig](http://roberttaussig.co.uk/)
 * [Anna Karlin](http://annakarlin.com/)
+* [SpanishDict Safari Extension](/spanishdict/)
 
 ---
 
