@@ -31,7 +31,7 @@ in [London, UK](http://www.builtinlondon.co/)
 
 ## Projects
 
-* [Ember Sandbox](http://jgwhite.co.uk/ember-sandbox)
+* [Ember Sandbox](http://embersandbox.com/)
 * [Microfiche.js](http://withassociates.github.com/microfiche.js/)
 * [Code Club Assembly](https://github.com/jgwhite/codeclub-assembly)
 * [Oiffy](http://oiffy.com/)
