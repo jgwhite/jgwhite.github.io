@@ -59,7 +59,7 @@ in [London, UK](http://www.builtinlondon.co/)
 
 * [Al Monk](http://www.alasdairmonk.com/)
 * [Anna Karlin](http://annakarlin.com/)
-* [Brendan Gatens](http://brendangatens.com/)
+* [Brendan Gatens](http://www.london-se.com/)
 * [Calum Gunn](http://www.calumgunn.com/)
 * [Clare Sutcliffe](http://www.claresutcliffe.com/)
 * [Code Club](http://www.codeclub.org.uk/)
