@@ -58,6 +58,7 @@ in [London, UK](http://www.builtinlondon.co/)
 ## Amigos
 
 * [Al Monk](http://www.alasdairmonk.com/)
+* [Anna Goss](http://annagoss.co/)
 * [Anna Karlin](http://annakarlin.com/)
 * [Brendan Gatens](http://www.london-se.com/)
 * [Calum Gunn](http://www.calumgunn.com/)
