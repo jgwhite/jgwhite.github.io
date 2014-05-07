@@ -1,3 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '1.5.1'
+gem 'redcarpet', '2.3.0'
