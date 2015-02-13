@@ -77,6 +77,7 @@ contributor to [Ember CLI](http://ember-cli.com).
 * [LuckyMe](http://thisisluckyme.com/)
 * [Mark Dunbavan](http://www.markdunbavan.co.uk/)
 * [Oiffy](http://oiffy.com/)
+* [Picfair](https://www.picfair.com/)
 * [Radio Design](http://radiodesign.co.uk/)
 * [Sam Williams](http://sam-w.com/)
 * [Thomas Marshall](http://thomasmarshall.com/)
