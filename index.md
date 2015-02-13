@@ -8,7 +8,7 @@ title: Jamie White
 ---
 
 Señor developer at [With Associates](http://withassociates.com/)
-in [London, UK](http://www.builtinlondon.co/)
+in London, UK
 
 ---
 
