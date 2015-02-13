@@ -79,7 +79,6 @@ contributor to [Ember CLI](http://ember-cli.com).
 * [Oiffy](http://oiffy.com/)
 * [Radio Design](http://radiodesign.co.uk/)
 * [Sam Williams](http://sam-w.com/)
-* [Steer](http://steer.me/)
 * [Thomas Marshall](http://thomasmarshall.com/)
 
 ---
