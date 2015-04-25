@@ -32,6 +32,7 @@ contributor to [Ember CLI](http://ember-cli.com).
 
 ## Projects
 
+* [ember-sortable](https://github.com/jgwhite/ember-sortable)
 * [Ember Sandbox](http://embersandbox.com/)
 * [Microfiche.js](http://withassociates.github.com/microfiche.js/)
 * [Code Club Assembly](https://github.com/jgwhite/codeclub-assembly)
