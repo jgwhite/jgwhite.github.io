@@ -3,6 +3,8 @@ layout: post
 title: 'Ember Time'
 ---
 
+*This article is now seriously out of date. Please refer to [Ember’s official guides](http://guides.emberjs.com/).*
+
 *What follows is a re-publication of a [README][repo].*
 
 The README in question turned out a little better-written and more
