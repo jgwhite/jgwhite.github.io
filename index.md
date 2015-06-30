@@ -32,6 +32,7 @@ contributor to [Ember CLI](http://ember-cli.com).
 
 ## Projects
 
+* [Ruby Tapas.app](https://github.com/jgwhite/Tapas)
 * [ember-sortable](https://github.com/jgwhite/ember-sortable)
 * [Ember Sandbox](http://embersandbox.com/)
 * [Microfiche.js](http://withassociates.github.com/microfiche.js/)
