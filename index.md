@@ -34,14 +34,8 @@ contributor to [Ember CLI](http://ember-cli.com).
 
 * [Ruby Tapas.app](https://github.com/jgwhite/Tapas)
 * [ember-sortable](https://github.com/jgwhite/ember-sortable)
-* [Ember Sandbox](http://embersandbox.com/)
-* [Microfiche.js](http://withassociates.github.com/microfiche.js/)
-* [Code Club Assembly](https://github.com/jgwhite/codeclub-assembly)
-* [Oiffy](http://oiffy.com/)
-* [Enrique Pardo](http://enriquepardo.com/)
-* [LuckyMe](http://thisisluckyme.com/)
-* [Robert Taussig](http://roberttaussig.co.uk/)
 * [SpanishDict Safari Extension](/spanishdict/)
+* [Code Club Assembly](https://github.com/jgwhite/codeclub-assembly)
 
 ---
 
