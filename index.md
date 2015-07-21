@@ -39,19 +39,6 @@ contributor to [Ember CLI](http://ember-cli.com).
 
 ---
 
-## Tools
-
-* [Git](http://git-scm.com/)
-* [Ruby](http://www.ruby-lang.org/)
-* [Rails](http://rubyonrails.org/)
-* [Ember](http://emberjs.com/)
-* [Backbone](http://backbonejs.org/)
-* [MongoDB](http://www.mongodb.org/)
-* [Wordpress](http://wordpress.org/)
-* [The Semantic Web](http://www.w3.org/)
-
----
-
 ## Amigos
 
 * [Al Monk](http://www.alasdairmonk.com/)
@@ -82,7 +69,5 @@ contributor to [Ember CLI](http://ember-cli.com).
 
 ## Elsewhere
 
-* [Instagram](http://instagram.com/jgwhite)
-* [Flickr](http://www.flickr.com/people/jgwhite/)
 * [SoundCloud](http://soundcloud.com/jgwhite)
 * [This Is My Jam](http://thisismyjam.com/jgwhite)
