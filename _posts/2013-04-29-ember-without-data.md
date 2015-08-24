@@ -3,6 +3,11 @@ layout: post
 title: 'Ember Without Data'
 ---
 
+<iframe
+  width="178" height="24" style="border:0px"
+  src="http://mixonic.github.io/ember-community-versions/2013/04/29/ember-without-data.html">
+</iframe>
+
 ## Disclaimer
 
 This post assumes an entry-level familiarity with Ember and its

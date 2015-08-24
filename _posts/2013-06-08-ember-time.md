@@ -3,6 +3,11 @@ layout: post
 title: 'Ember Time'
 ---
 
+<iframe
+  width="178" height="24" style="border:0px"
+  src="http://mixonic.github.io/ember-community-versions/2013/06/08/ember-time.html">
+</iframe>
+
 *This article is now seriously out of date. Please refer to [Ember’s official guides](http://guides.emberjs.com/).*
 
 *What follows is a re-publication of a [README][repo].*
