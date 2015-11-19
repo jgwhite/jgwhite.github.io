@@ -22,14 +22,7 @@ For notes about technology and tools, check out [jgwhite.ghost.io](https://jgwhi
 * [github.com/jgwhite](https://github.com/jgwhite)
 * [twitter.com/jgwhite](https://twitter.com/jgwhite)
 * [keybase.io/jgwhite](https://keybase.io/jgwhite)
-
----
-
-## Posts
-
-{% for post in site.posts %}
-* {{post.date | date_to_long_string}} [{{post.title}}]({{post.url}})
-{% endfor %}
+* [soundcloud.com/jgwhite](http://soundcloud.com/jgwhite)
 
 ---
 
@@ -39,6 +32,14 @@ For notes about technology and tools, check out [jgwhite.ghost.io](https://jgwhi
 * [ember-sortable](https://github.com/jgwhite/ember-sortable)
 * [SpanishDict Safari Extension](/spanishdict/)
 * [Code Club Assembly](https://github.com/jgwhite/codeclub-assembly)
+
+---
+
+## Post Archive
+
+{% for post in site.posts %}
+* {{post.date | date_to_long_string}} [{{post.title}}]({{post.url}})
+{% endfor %}
 
 ---
 
@@ -67,10 +68,3 @@ For notes about technology and tools, check out [jgwhite.ghost.io](https://jgwhi
 * [Radio Design](http://radiodesign.co.uk/)
 * [Sam Williams](http://sam-w.com/)
 * [Thomas Marshall](http://thomasmarshall.com/)
-
----
-
-## Elsewhere
-
-* [SoundCloud](http://soundcloud.com/jgwhite)
-* [This Is My Jam](http://thisismyjam.com/jgwhite)
