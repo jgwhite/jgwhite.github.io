@@ -8,8 +8,8 @@ title: Jamie White
 ---
 
 Programmer at [With Associates](http://withassociates.com/) in London, UK.
-Co-organiser of [Ember London](http://emberlondon.com) &amp;
-contributor to [Ember CLI](http://ember-cli.com).
+
+Co-organiser of [Ember London](http://emberlondon.com) & contributor to [Ember CLI](http://ember-cli.com).
 
 For notes about technology and tools, check out [jgwhite.ghost.io](https://jgwhite.ghost.io).
 
