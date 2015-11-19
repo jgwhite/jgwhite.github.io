@@ -28,10 +28,8 @@ For notes about technology and tools, check out [jgwhite.ghost.io](https://jgwhi
 
 ## Projects
 
-* [Ruby Tapas.app](https://github.com/jgwhite/Tapas)
-* [ember-sortable](https://github.com/jgwhite/ember-sortable)
-* [SpanishDict Safari Extension](/spanishdict/)
-* [Code Club Assembly](https://github.com/jgwhite/codeclub-assembly)
+* [Gazpacho.app](http://jgwhite.co.uk/gazpacho)
+* [Ember Sortable](https://github.com/jgwhite/ember-sortable)
 
 ---
 
