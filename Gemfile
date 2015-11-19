@@ -1,4 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '1.5.1'
-gem 'redcarpet', '2.3.0'
+gem 'github-pages'
