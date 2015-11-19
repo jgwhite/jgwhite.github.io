@@ -17,8 +17,9 @@ contributor to [Ember CLI](http://ember-cli.com).
 
 * [+44 7899 872 935](tel:+447899872935)
 * [jamie@jgwhite.co.uk](mailto:jamie@jgwhite.co.uk)
-* [github.com/jgwhite](http://github.com/jgwhite)
-* [twitter.com/jgwhite](http://twitter.com/jgwhite)
+* [github.com/jgwhite](https://github.com/jgwhite)
+* [twitter.com/jgwhite](https://twitter.com/jgwhite)
+* [keybase.io/jgwhite](https://keybase.io/jgwhite)
 
 ---
 
