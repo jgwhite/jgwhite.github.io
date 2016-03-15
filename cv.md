@@ -27,7 +27,7 @@ BSc (hons) Multimedia, Technology & Design
 
 ## Work
 
-### 2011–Present [With Associates](http://withassociates.com)
+### 2011–2016 [With Associates](http://withassociates.com)
 
 Senior programmer (Ruby, JavaScript, some iOS, Android).  
 Clients include
