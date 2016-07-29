@@ -26,7 +26,6 @@ For notes about technology and tools, check out [jgwhite.ghost.io](https://jgwhi
 
 ## Projects
 
-* [Gazpacho](http://jgwhite.co.uk/gazpacho)
 * [Ember Sortable](https://github.com/jgwhite/ember-sortable)
 
 ---
