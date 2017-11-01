@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/jgwhite
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jgwhite.co.uk
+  * I am jgwhite (https://keybase.io/jgwhite) on keybase.
+  * I have a public key ASDDXTnOfGx1RM--qCvm6BMMJd6G97atpgJuuIT5bshfTgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010197f2a205080d6b42cd9ffd16975772fc3b1fff005389ecf3798d946da8f8705f0a",
+      "host": "keybase.io",
+      "kid": "0120c35d39ce7c6c7544cfbea82be6e8130c25de86f7b6ada6026eb884f96ec85f4e0a",
+      "uid": "a20cea56e81af9241aba80f67007f300",
+      "username": "jgwhite"
+    },
+    "merkle_root": {
+      "ctime": 1509528978,
+      "hash": "aeea78cc4215e03656cec0f431a973ae3d93c3f95f97e547938bd0088b29af71b70d2dab916611c91d4c60732831e9dbd065d2317c8215efa2a5815a2d80fe37",
+      "hash_meta": "cef669c23bde31814147d8033372d0c5ef7978c52de1941417bc002dca1a65b5",
+      "seqno": 1654075
+    },
+    "service": {
+      "hostname": "jgwhite.co.uk",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.34"
+  },
+  "ctime": 1509529022,
+  "expire_in": 504576000,
+  "prev": "092616a60d9abc2a7933a3861f8c6c0b6282b4c2b729447d993c11cee7fb6f48",
+  "seqno": 57,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgw105znxsdUTPvqgr5ugTDCXehve2raYCbriE+W7IX04Kp3BheWxvYWTFA0R7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxOTdmMmEyMDUwODBkNmI0MmNkOWZmZDE2OTc1NzcyZmMzYjFmZmYwMDUzODllY2YzNzk4ZDk0NmRhOGY4NzA1ZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzM1ZDM5Y2U3YzZjNzU0NGNmYmVhODJiZTZlODEzMGMyNWRlODZmN2I2YWRhNjAyNmViODg0Zjk2ZWM4NWY0ZTBhIiwidWlkIjoiYTIwY2VhNTZlODFhZjkyNDFhYmE4MGY2NzAwN2YzMDAiLCJ1c2VybmFtZSI6Impnd2hpdGUifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDk1Mjg5NzgsImhhc2giOiJhZWVhNzhjYzQyMTVlMDM2NTZjZWMwZjQzMWE5NzNhZTNkOTNjM2Y5NWY5N2U1NDc5MzhiZDAwODhiMjlhZjcxYjcwZDJkYWI5MTY2MTFjOTFkNGM2MDczMjgzMWU5ZGJkMDY1ZDIzMTdjODIxNWVmYTJhNTgxNWEyZDgwZmUzNyIsImhhc2hfbWV0YSI6ImNlZjY2OWMyM2JkZTMxODE0MTQ3ZDgwMzMzNzJkMGM1ZWY3OTc4YzUyZGUxOTQxNDE3YmMwMDJkY2ExYTY1YjUiLCJzZXFubyI6MTY1NDA3NX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJqZ3doaXRlLmNvLnVrIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zNCJ9LCJjdGltZSI6MTUwOTUyOTAyMiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiIwOTI2MTZhNjBkOWFiYzJhNzkzM2EzODYxZjhjNmMwYjYyODJiNGMyYjcyOTQ0N2Q5OTNjMTFjZWU3ZmI2ZjQ4Iiwic2Vxbm8iOjU3LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQAamoyu3Supway5+tbqwtekCMHZKNAdfIlGMx3RfU7VBr6Vdvidz4cwP184O4ylFl34zZEF9CeS4vCp8jCOcugOoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDpH1rjK6OIfVwe3g6wSeoBlcW3KCeOE3CFuDEr8uIflKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jgwhite
+
+==================================================================
