@@ -89,6 +89,6 @@ Guest of Drew Neil (episode #5), host to Paul Battley (episode #6).
 
 Co-author (Ember.js segment) of technical book by Pam Selle.
 
-### 2013 [Developing an Ember.js Edge](http://bleedingedgepress.com/our-books/developing-and-ember-edge/) (book)
+### 2013 [Developing an Ember.js Edge](http://bleedingedgepress.com/our-books/developing-an-ember-edge/) (book)
 
 Co-author. One of the first in-depth books on Ember.js.
