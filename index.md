@@ -7,7 +7,7 @@ title: Jamie White
 
 ---
 
-Programmer at [Kayako](http://kayako.com). Co-organiser of [Ember London](http://emberlondon.com) &amp; contributor to [Ember CLI](http://ember-cli.com).
+Programmer at [Heroku](https://heroku.com). Co-organiser of [Ember London](http://emberlondon.com) &amp; contributor to [Ember CLI](http://ember-cli.com).
 
 ---
 
