@@ -16,7 +16,6 @@ Programmer at [Heroku](https://heroku.com). Co-organiser of [Ember London](http:
 * [+44 7899 872 935](tel:+447899872935)
 * [jamie@jgwhite.co.uk](mailto:jamie@jgwhite.co.uk)
 * [github.com/jgwhite](https://github.com/jgwhite)
-* [twitter.com/jgwhite](https://twitter.com/jgwhite)
 * [keybase.io/jgwhite](https://keybase.io/jgwhite)
 * [soundcloud.com/jgwhite](http://soundcloud.com/jgwhite)
 
