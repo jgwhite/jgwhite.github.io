@@ -16,6 +16,7 @@ Programmer at [HashiCorp](https://hashicorp.com)
 * [jamie@jgwhite.co.uk](mailto:jamie@jgwhite.co.uk)
 * [github.com/jgwhite](https://github.com/jgwhite)
 * [soundcloud.com/jgwhite](http://soundcloud.com/jgwhite)
+* <a rel="me" href="https://indieweb.social/@jgwhite">indieweb.social/@jgwhite</a>
 
 ---
 
