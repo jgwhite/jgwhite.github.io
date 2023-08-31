@@ -1,3 +1,3 @@
-# jgwhite.github.com
+# jgwhite.github.io
 
 A jekyll-powered blog.
