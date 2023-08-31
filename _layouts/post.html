@@ -4,13 +4,15 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
+<p class="dateline">{{ page.date | date_to_long_string }}</p>
+
 {{ content }}
 
 <aside>
-  <hr noshade>
+  <hr noshade />
 
   <p>
-    You’re reading the ramblings of <strong>Jamie White</strong>.<br>
+    You’re reading the ramblings of <strong>Jamie White</strong>.<br />
     For more of this nonsense, <a href="/">see the homepage</a>.
   </p>
 </aside>
