@@ -20,6 +20,13 @@ Programmer at [HashiCorp](https://hashicorp.com)
 
 ---
 
+## Projects
+
+- [Melody Paths](https://melody-paths.jgwhite.co.uk)
+- [Fretboard](https://fretboard.jgwhite.co.uk)
+
+---
+
 ## Essays
 
 {% for post in site.posts %}
