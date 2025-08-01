@@ -7,7 +7,7 @@ title: Jamie White
 
 ---
 
-Programmer at [HashiCorp](https://hashicorp.com)
+Programmer at [HashiCorp](https://hashicorp.com) / [IBM](https://www.ibm.com)
 
 ---
 
