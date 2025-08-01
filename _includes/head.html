@@ -1,16 +1,14 @@
-<meta charset="utf-8">
+<meta charset="utf-8" />
 
 <title>
-  {{ page.title }}
-  {% unless page.url == '/index.html' %}
-    - Jamie White
-  {% endunless %}
+  {{ page.title }} {% unless page.url == '/' %} - Jamie White {% endunless %}
 </title>
 
-<meta name="viewport" content="initial-scale=1">
+<meta name="viewport" content="initial-scale=1" />
 
-<link rel="stylesheet" href="/css/jgwhite.css">
-<link rel="alternate" title="{{site.title}}" href="{{"/feed.json" | prepend: site.baseurl | prepend: site.url}}">
+<link rel="stylesheet" href="/css/jgwhite.css" />
+<link rel="alternate" title="{{site.title}}" href="{{"/feed.json" | prepend:
+site.baseurl | prepend: site.url}}">
 
 <!--
 /*
