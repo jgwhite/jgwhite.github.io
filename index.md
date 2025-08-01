@@ -24,13 +24,3 @@ Programmer at [HashiCorp](https://hashicorp.com)
 
 - [Melody Paths](https://melody-paths.jgwhite.co.uk)
 - [Fretboard](https://fretboard.jgwhite.co.uk)
-
----
-
-## Essays
-
-{% for post in site.posts %}
-
-- [{{post.title}}]({{post.url}}) <small>— {{post.date | date_to_long_string}}</small>
-
-  {% endfor %}
