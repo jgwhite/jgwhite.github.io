@@ -20,7 +20,7 @@ Programmer at [HashiCorp](https://hashicorp.com)
 
 ---
 
-## Projects
+## Hobby Projects
 
 - [Melody Paths](https://melody-paths.jgwhite.co.uk)
 - [Fretboard](https://fretboard.jgwhite.co.uk)
